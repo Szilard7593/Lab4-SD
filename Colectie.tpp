@@ -7,7 +7,7 @@
 #include <stdexcept>
 #include "Iterator.h"
 #include "Node.h"
-#include "MultimeElementeGenericeOrdonata.tpp"
+#include "MultimeElementeGenericeOrdonata.h"
 
 #include "UI.h"
 template <typename E>

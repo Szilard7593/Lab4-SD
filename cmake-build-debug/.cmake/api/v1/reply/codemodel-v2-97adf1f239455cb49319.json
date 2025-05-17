@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "curs7_LSI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-curs7_LSI-Debug-ef17634ebd7a8a8373f0.json",
+					"jsonFile" : "target-curs7_LSI-Debug-b2f3f76e6bb0069cb75a.json",
 					"name" : "curs7_LSI",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/szila/lab4/curs7_LSI +l4/curs7_LSI/cmake-build-debug",
-		"source" : "C:/Users/szila/lab4/curs7_LSI +l4/curs7_LSI"
+		"build" : "/Users/mihnea/Documents/GitHub/Lab4-SD/cmake-build-debug",
+		"source" : "/Users/mihnea/Documents/GitHub/Lab4-SD"
 	},
 	"version" : 
 	{

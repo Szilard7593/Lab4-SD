@@ -7,7 +7,7 @@
 
 #include <stdexcept>
 #include "Node.h"
-#include "MultimeElementeGenericeOrdonata.tpp"
+#include "MultimeElementeGenericeOrdonata.h"
 
 template <class E>
 class Colectie {

@@ -11,12 +11,9 @@ void UI::printOptions() {
 }
 
 void UI::initBancnote() {
-    ifstream in("C:/Users/szila/lab4/curs7_LSI +l4/curs7_LSI/Banconote.in");
+    ifstream in("../Bancnote.in");
     int frecv;
     int val;
-    if (!in) {
-        cerr << "Error opening file " << __FILE__ << '\n';
-    }
     while (in >> frecv >> val) {
         for (int i = 0; i < frecv; ++i)
             bancnote.add(val);
@@ -52,7 +49,7 @@ UI::UI(): tranzactii(&UI::cmp) {
 }
 
 void UI::printBancnote() {
-    cout << bancnote;
+    cout << bancnote << '\n';
 }
 
 
