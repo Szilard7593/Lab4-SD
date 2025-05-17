@@ -16,7 +16,7 @@ class Tranzactie;
 class UI {
     string options[10] = {"Afisare bancnote", "Retragere suma", "Afisare tranzactii"};
     Colectie<int> bancnote;
-    Colectie<Tranzactie> tranzactie;
+    Multime<Tranzactie> tranzactie;
 
     bool (*tranzactii)(Tranzactie&, Tranzactie&);
     int nrTranzactii = 0;

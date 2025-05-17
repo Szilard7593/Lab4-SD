@@ -84,6 +84,18 @@ Colectie<int>& Tranzactie::getColection() {
     return this->colection;
 }
 
+bool Tranzactie::operator<(const Tranzactie &t) const {
+    return data < t.data;
+}
+
+bool Tranzactie::operator>(const Tranzactie &t) const {
+    return data > t.data;
+}
+
+bool Tranzactie::operator==(const Tranzactie &t) const {
+    return t.id == id;
+}
+
 
 std::ostream & operator<<(std::ostream &os, const Tranzactie &t) {
     if (t.tranzactieValida)

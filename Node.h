@@ -14,10 +14,10 @@ class Iterator;
 
 template <class E>
 class Node {
-    E info;
    // int frecventa;
-    Node<E>* next;
 public:
+    E info;
+    Node<E>* next;
     Node(E info, Node<E>* next = nullptr) : info(info), next(next) {}
     friend class Colectie<E>;
     friend class Iterator<E>;

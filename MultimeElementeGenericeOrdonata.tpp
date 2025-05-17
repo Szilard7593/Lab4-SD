@@ -16,7 +16,7 @@ Multime<T>::~Multime() {
 
 //Adaugare element
 template <typename T>
-void Multime<T>::add(const T& e) {
+void Multime<T>::add(T& e) {
     if (ifExist(e))
         return;
 
@@ -42,7 +42,7 @@ void Multime<T>::add(const T& e) {
 
 //Stergere element
 template <typename T>
-int Multime<T>::remove(const T& e) {
+int Multime<T>::remove(T& e) {
     Node<T>* current = head;
     Node<T>* previous = nullptr;
 
@@ -66,9 +66,8 @@ int Multime<T>::remove(const T& e) {
 
 //Verificare existenta element
 template<typename T>
-bool Multime<T>::ifExist(const T &e) {
+bool Multime<T>::ifExist(T &e) {
     return searchNode(e) != nullptr;
-
 }
 
 //Cautare element
@@ -91,7 +90,7 @@ int Multime<T>::size() const {
 
 //Obtinere element
 template<typename T>
-T Multime<T>::getElem(int poz) const{
+T Multime<T>::getAt(int poz) const{
     if (poz < 0 || poz >= noElems) {
         throw std::out_of_range("Pozitie invalida");
     }
@@ -115,7 +114,7 @@ void Multime<T>::destroy() {
 }
 
 template<typename T>
-T Multime<T>::getElem(int poz) {
+T Multime<T>::getAt(int poz) {
     if (poz < 0 || poz >= noElems) {
         throw std::out_of_range("Pozitie invalida");
     }

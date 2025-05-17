@@ -19,12 +19,12 @@ private:
 public:
     explicit Multime(Comparator<T> cmpFunc);
     ~Multime();
-    void add(const T &e);
-    int remove( const T& e);
-    bool ifExist( const T& e) ;
+    void add(T &e);
+    int remove(T& e);
+    bool ifExist(T& e) ;
     int size() const;
-    T getElem(int poz) const;
-    T getElem(int poz);
+    T getAt(int poz) const;
+    T getAt(int poz);
     void destroy();
 };
 

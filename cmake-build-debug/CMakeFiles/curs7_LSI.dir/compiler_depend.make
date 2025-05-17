@@ -961,6 +961,7 @@ CMakeFiles/curs7_LSI.dir/Tranzactie.cpp.o: /Users/mihnea/Documents/GitHub/Lab4-S
   /Users/mihnea/Documents/GitHub/Lab4-SD/Colectie.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Colectie.tpp \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Iterator.h \
+  /Users/mihnea/Documents/GitHub/Lab4-SD/MultimeElementeGenericeOrdonata.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/MultimeElementeGenericeOrdonata.tpp \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Node.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Tranzactie.h \
@@ -1946,6 +1947,7 @@ CMakeFiles/curs7_LSI.dir/UI.cpp.o: /Users/mihnea/Documents/GitHub/Lab4-SD/UI.cpp
   /Users/mihnea/Documents/GitHub/Lab4-SD/Colectie.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Colectie.tpp \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Iterator.h \
+  /Users/mihnea/Documents/GitHub/Lab4-SD/MultimeElementeGenericeOrdonata.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/MultimeElementeGenericeOrdonata.tpp \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Node.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Tranzactie.h \
@@ -2911,6 +2913,7 @@ CMakeFiles/curs7_LSI.dir/main.cpp.o: /Users/mihnea/Documents/GitHub/Lab4-SD/main
   /Users/mihnea/Documents/GitHub/Lab4-SD/Colectie.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Colectie.tpp \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Iterator.h \
+  /Users/mihnea/Documents/GitHub/Lab4-SD/MultimeElementeGenericeOrdonata.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/MultimeElementeGenericeOrdonata.tpp \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Node.h \
   /Users/mihnea/Documents/GitHub/Lab4-SD/Tranzactie.h \
@@ -3610,6 +3613,8 @@ CMakeFiles/curs7_LSI.dir/main.cpp.o: /Users/mihnea/Documents/GitHub/Lab4-SD/main
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__math/fma.h:
+
+/Users/mihnea/Documents/GitHub/Lab4-SD/MultimeElementeGenericeOrdonata.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__memory/assume_aligned.h:
 

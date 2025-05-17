@@ -24,6 +24,9 @@ public:
     std::string getData();
     Colectie<int>& getColection();
     friend std::ostream& operator<<(std::ostream& os, const Tranzactie& t);
+    bool operator<(const Tranzactie& t) const;
+    bool operator>(const Tranzactie& t) const;
+    bool operator==(const Tranzactie& t) const;
 };
 
 

@@ -42,9 +42,11 @@ bool UI::cmp(Tranzactie& t1, Tranzactie& t2) {
           (t1.getSuma() == t2.getSuma() && t1.getColection().size() < t2.getColection().size());
 }
 
+bool comparator(const Tranzactie& t1, const Tranzactie& t2) {
+    return t1 > t2;
+}
 
-
-UI::UI(): tranzactii(&UI::cmp) {
+UI::UI(): tranzactie(comparator), tranzactii(&UI::cmp) {
     initBancnote();
 }
 
